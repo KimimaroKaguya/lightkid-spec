@@ -38,13 +38,15 @@ The MVP will focus on the **Core**, **Growth**, and **Milestones** features. Adv
 ## 2. Technical Roadmap
 
 - [x] **Infrastructure**: Docker, Air, CI/CD, Swagger.
-- [x] **Database**: Schema setup for Users, Children, Growth, Milestones. (Need to verify migration files)
+- [x] **Database**: Schema setup for Users, Children, Growth, Milestones.
 - [ ] **API Implementation**:
-    - [ ] **Auth & Child**: Verify existing implementation and add missing endpoints.
-    - [ ] **Growth Service**: Implement logic for recording metrics and WHO comparison.
-    - [ ] **Milestone Service**: seeding data and tracking achievements.
-    - [ ] **Dashboard**: Aggregation service.
-- [ ] **Frontend Integration** (Future)
+    - [x] **Auth & Child**: Implemented (Register, Login, CRUD Child).
+    - [ ] **Growth Service**: Stub only (Service exists but empty).
+    - [ ] **Milestone Service**: Partial (Service logic exists, Seed data ready, needs verification).
+    - [ ] **Dashboard**: Stub only (returns mock data).
+- [ ] **Frontend Implementation** (Flutter):
+    - [x] **Screens**: Login, Children, Dashboard, Growth, Milestones, Tracking, Reports.
+    - [ ] **Integration**: Currently using mocks or disconnected; needs integration with Backend.
 
 ## 3. Success Metrics
 - Parent can successfully register and add a child.
