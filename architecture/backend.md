@@ -12,6 +12,7 @@ The LightKid backend is designed to support a child growth and activity tracking
 - **Observability:** OpenTelemetry (OTEL)
 - **Documentation:** Swagger (Swag)
 - **Testing:** Testify, SQLMock
+- **Code Quality Results**: 100% Test Coverage Required for Business Logic
 - **CI/CD:** GitHub Actions
 
 ## Project Structure
